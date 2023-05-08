@@ -194,7 +194,7 @@ export default {
           { type: 'number', message: '保质期必须是数字', trigger: 'blur' }],
         storageConditions: [{ required: true, message: '请输入贮藏条件', trigger: ['blur', 'change'] }],
         implementStandard: [{ required: true, message: '请输入执行标准', trigger: ['blur', 'change'] }],
-        materials: [{ required: true, message: '请输入/选择原料', trigger: ['blur', 'change'] }]
+        materials: [{ required: false, message: '请输入/选择原料', trigger: ['blur', 'change'] }]
       },
       formType: 1,
       marerialData: [],
