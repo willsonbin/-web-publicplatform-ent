@@ -1,0 +1,79 @@
+{
+  "id": "3338062",
+  "name": "JKY-icon",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "29063118",
+      "name": "数据字典",
+      "font_class": "shujuzidian1",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "29062926",
+      "name": "gongzuotai",
+      "font_class": "gongzuotai1",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "29062928",
+      "name": "标签追溯码管理",
+      "font_class": "biaoqianzhuisumaguanli",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "29062929",
+      "name": "公告",
+      "font_class": "gonggao",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "29062930",
+      "name": "企业信息管理",
+      "font_class": "qiyexinxiguanli",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "29062931",
+      "name": "基础模块",
+      "font_class": "jichumokuai",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "29062933",
+      "name": "追溯查询",
+      "font_class": "zhuisuchaxun",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "29062934",
+      "name": "数据统计",
+      "font_class": "shujutongji",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "29062935",
+      "name": "认证检测",
+      "font_class": "renzhengjiance",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "29062936",
+      "name": "功能权限",
+      "font_class": "gongnengquanxian1",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    }
+  ]
+}
