@@ -126,21 +126,21 @@ export default {
   padding: 8px;
   margin-bottom: 20px;
 }
-  >>> .el-form-item--medium .el-form-item__label{
+  ::v-deep .el-form-item--medium .el-form-item__label{
     font-weight: normal;
     padding: 0px;
   }
-  >>> .el-form-item .el-input--medium .el-input__inner{
+  ::v-deep .el-form-item .el-input--medium .el-input__inner{
     width: 100%
   }
-  >>> .el-form-item__error{
+  ::v-deep .el-form-item__error{
   position: unset !important;
   margin-top: 0px !important;
 }
->>> .el-form-item{
+::v-deep .el-form-item{
   margin-bottom: 0px;
 }
->>> .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before{
+::v-deep .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before{
   position: unset !important;
 }
 }

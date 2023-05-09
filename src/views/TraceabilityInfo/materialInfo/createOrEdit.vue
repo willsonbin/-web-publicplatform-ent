@@ -448,21 +448,21 @@ export default {
   margin-bottom: 44px;
   overflow: auto;
 }
->>> .el-form-item--medium .el-form-item__label{
+::v-deep .el-form-item--medium .el-form-item__label{
   font-weight: normal;
   padding: 0px;
 }
-  >>> .el-form-item .el-input--medium .el-input__inner{
+  ::v-deep .el-form-item .el-input--medium .el-input__inner{
     width: 100%
   }
-  >>> .el-form-item__error{
+  ::v-deep .el-form-item__error{
   position: unset;
   margin-top: 0px;
 }
->>> .el-form-item--medium .el-form-item__label{
+::v-deep .el-form-item--medium .el-form-item__label{
   margin-right: 10px;
 }
->>> .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before, .el-form-item.is-required:not(.is-no-asterisk) .el-form-item__label-wrap>.el-form-item__label:before{
+::v-deep .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before, .el-form-item.is-required:not(.is-no-asterisk) .el-form-item__label-wrap>.el-form-item__label:before{
   position: unset;
 }
 .row-title-tips{

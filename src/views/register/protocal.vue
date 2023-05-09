@@ -62,7 +62,7 @@ export default {
     }
     .protacalContent{
         color: #000;
-        >>> h1{
+        ::v-deep h1{
             display: block;
             font-size: 2em;
             margin-block-start: 0.67em;
@@ -71,7 +71,7 @@ export default {
             margin-inline-end: 0px;
             font-weight: bold;
         }
-        >>> h2{
+        ::v-deep h2{
                 display: block;
                 font-size: 1.5em;
                 margin-block-start: 0.83em;

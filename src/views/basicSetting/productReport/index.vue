@@ -315,7 +315,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
->>> .el-form-item--medium .el-form-item__label{
+::v-deep .el-form-item--medium .el-form-item__label{
     font-weight: normal;
 }
 .report-img-list {
@@ -324,7 +324,7 @@ export default {
     height: 44px;
     position: relative;
     margin-left: 5px;
-     >>>.el-image__inner {
+     ::v-deep.el-image__inner {
        width: auto !important;
      }
 }

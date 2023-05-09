@@ -260,7 +260,7 @@ export default {
   min-width: 260px;
   overflow: hidden;
   overflow-x: auto;
-    >>>.el-upload--picture-card{
+    ::v-deep.el-upload--picture-card{
         width: 60px;
         height: 60px;
         border: 0;
@@ -268,7 +268,7 @@ export default {
         line-height: 60px;
         background: #fff;
     }
-    >>>.el-upload-list--picture-card{
+    ::v-deep.el-upload-list--picture-card{
         display: none;
     }
     .description {

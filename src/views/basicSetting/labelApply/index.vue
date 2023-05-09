@@ -43,7 +43,7 @@ export default {
     padding: 0;
     width: 100%;
 }
-  >>> .el-tabs__header {
+  ::v-deep .el-tabs__header {
   margin: 0px !important;
 }
 </style>

@@ -313,7 +313,7 @@ export default {
     height: 44px;
     position: relative;
     margin-left: 5px;
-    >>>.el-image__inner {
+    ::v-deep.el-image__inner {
       width: auto !important;
     }
 }

@@ -91,7 +91,7 @@ export default {
 
 <style lang="scss" scoped>
 .switch-input{
-  >>> .el-form-item__content{
+  ::v-deep .el-form-item__content{
       border: 1px solid #DCDFE6;
       // box-sizing: border-box;
       height: 44px;

@@ -89,10 +89,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
- >>> .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before{
+ ::v-deep .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before{
     position: unset;
   }
->>> .el-form-item .el-input--medium .el-input__inner{
+::v-deep .el-form-item .el-input--medium .el-input__inner{
   width: 100%;
 }
 </style>

@@ -101,7 +101,7 @@ export default {
     background: #dcdfe6;
     display: block;
     }
->>> .el-form-item{
+::v-deep .el-form-item{
   margin-bottom: 10px;
 }
 </style>

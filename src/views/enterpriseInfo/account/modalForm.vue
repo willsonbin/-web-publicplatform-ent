@@ -119,7 +119,7 @@ export default {
 
 <style lang="scss" scoped>
 .switch-input{
-  >>>.el-form-item__content{
+  ::v-deep.el-form-item__content{
       border: 1px solid #DCDFE6;
       // box-sizing: border-box;
       height: 44px;
@@ -128,17 +128,17 @@ export default {
       }
   }
 }
->>> .el-form-item .el-input--medium .el-input__inner{
+::v-deep .el-form-item .el-input--medium .el-input__inner{
   width: 100%;
 }
->>> .el-form--label-top .el-form-item__label{
+::v-deep .el-form--label-top .el-form-item__label{
   padding: 0px;
   font-weight: normal;
 }
->>> .el-form-item{
+::v-deep .el-form-item{
   margin-bottom: 5px;
 }
->>> .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before{
+::v-deep .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before{
   position: unset;
 }
 </style>

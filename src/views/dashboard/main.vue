@@ -974,7 +974,7 @@ export default {
   margin: 15px 0px 0px 20px;
   padding: 0px 10px;
 }
->>> .el-dialog__header {
+::v-deep .el-dialog__header {
   display: none;
 }
 .dialogContent {
@@ -1019,7 +1019,7 @@ export default {
     font-size: 12px;
   }
 }
->>>.el-carousel .el-carousel__container {
+::v-deep.el-carousel .el-carousel__container {
   background: #FFEBEC;
   border: 1px solid #FFBABB;
   overflow: hidden;

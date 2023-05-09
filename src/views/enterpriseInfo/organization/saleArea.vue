@@ -151,7 +151,7 @@ export default {
         flex: 1;
         overflow: hidden;
         overflow-y: auto;
-        >>> .el-card__body {
+        ::v-deep .el-card__body {
             padding-bottom: 80px;
         }
     }

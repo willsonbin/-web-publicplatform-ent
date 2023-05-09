@@ -212,11 +212,11 @@ export default {
     margin: 8px 0;
   }
 }
->>> .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before{
+::v-deep .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before{
   position: static;
 }
 }
->>> .el-upload-dragger{
+::v-deep .el-upload-dragger{
   height: 122px;
 }
 </style>

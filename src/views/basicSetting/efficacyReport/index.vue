@@ -308,7 +308,7 @@ export default {
             color:#fff;
         }
     }
-    >>>.el-image__inner {
+    ::v-deep.el-image__inner {
       width: auto !important;
     }
 }

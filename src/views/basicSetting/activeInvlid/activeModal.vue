@@ -147,16 +147,16 @@ export default {
     background: #dcdfe6;
     display: inline-block;
 }
->>> .el-form-item--medium .el-form-item__label{
+::v-deep .el-form-item--medium .el-form-item__label{
     font-weight: normal;
 }
->>> .el-form-item .el-input--medium .el-input__inner{
+::v-deep .el-form-item .el-input--medium .el-input__inner{
     width: 100%;
 }
->>> .el-form-item--medium .el-form-item__label{
+::v-deep .el-form-item--medium .el-form-item__label{
   margin-right: 10px;
 }
->>> .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before, .el-form-item.is-required:not(.is-no-asterisk) .el-form-item__label-wrap>.el-form-item__label:before{
+::v-deep .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before, .el-form-item.is-required:not(.is-no-asterisk) .el-form-item__label-wrap>.el-form-item__label:before{
   position: unset;
 }
 .row-title-tips{

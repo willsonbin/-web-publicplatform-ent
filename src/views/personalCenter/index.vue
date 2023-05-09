@@ -257,7 +257,7 @@ export default {
   justify-content: center;
 }
 .switch-input {
-  >>> .el-form-item__content {
+  ::v-deep .el-form-item__content {
     border: 1px solid #dcdfe6;
     // box-sizing: border-box;
     height: 44px;
@@ -266,17 +266,17 @@ export default {
     }
   }
 }
->>> .el-form-item .el-input--medium .el-input__inner {
+::v-deep .el-form-item .el-input--medium .el-input__inner {
   width: 40%;
 }
->>> .el-form--label-top .el-form-item__label {
+::v-deep .el-form--label-top .el-form-item__label {
   padding-bottom: 10px;
   font-weight: normal;
 }
->>> .el-form-item {
+::v-deep .el-form-item {
   margin-bottom: 22px;
 }
->>> .el-form-item.is-required:not(.is-no-asterisk)
+::v-deep .el-form-item.is-required:not(.is-no-asterisk)
   > .el-form-item__label:before {
   position: unset;
 }

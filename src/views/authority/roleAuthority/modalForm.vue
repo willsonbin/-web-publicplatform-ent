@@ -266,7 +266,7 @@ export default {
 
 <style lang="scss" scoped>
 .switch-input{
-  >>>.el-form-item__content{
+  ::v-deep.el-form-item__content{
       border: 1px solid #DCDFE6;
       // box-sizing: border-box;
       height: 44px;
@@ -285,10 +285,10 @@ export default {
     text-align: right;
   }
 }
->>> .el-form-item .el-input--medium .el-input__inner {
+::v-deep .el-form-item .el-input--medium .el-input__inner {
   width: 100% !important;
  }
- >>> .el-form-item--medium .el-form-item__label {
+ ::v-deep .el-form-item--medium .el-form-item__label {
    font-weight: normal !important;
  }
  .treeContent{
@@ -297,17 +297,17 @@ export default {
    border: 1px solid #dcdfe6;
    border-top: none;
  }
- >>> .el-form--label-top .el-form-item__label{
+ ::v-deep .el-form--label-top .el-form-item__label{
    padding: 0px !important;
  }
- >>> .el-form-item__error{
+ ::v-deep .el-form-item__error{
    position: unset;
    margin-top: 0px;
  }
- >>>.el-tree-node__content{
+ ::v-deep.el-tree-node__content{
    padding: 20px;
  }
- >>> .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before{
+ ::v-deep .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before{
   position: unset;
 }
 </style>

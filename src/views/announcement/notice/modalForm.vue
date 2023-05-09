@@ -40,7 +40,7 @@ export default {
   height: 90%;
   overflow: hidden;
   padding-bottom: 20px;
-  >>> .el-dialog {
+  ::v-deep .el-dialog {
     height: 90%;
     overflow: hidden;
     .el-dialog__body {
@@ -54,10 +54,10 @@ export default {
       }
     }
   }
-  >>> .quill-editor .ql-toolbar {
+  ::v-deep .quill-editor .ql-toolbar {
     display: none;
   }
-  >>> .quill-editor .ql-container.ql-snow {
+  ::v-deep .quill-editor .ql-container.ql-snow {
     border: none;
   }
 }

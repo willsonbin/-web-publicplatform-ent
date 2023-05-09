@@ -476,25 +476,25 @@ export default {
 .btnContent{
   margin: 20px;
 }
->>> .el-form-item--medium .el-form-item__label{
+::v-deep .el-form-item--medium .el-form-item__label{
   font-weight: normal;
   padding: 0px;
 }
-  >>> .el-form-item .el-input--medium .el-input__inner{
+  ::v-deep .el-form-item .el-input--medium .el-input__inner{
     width: 100%
   }
- >>>  .el-input--medium .el-input__inner{
+ ::v-deep  .el-input--medium .el-input__inner{
    height: 36px;
    line-height: 36px;
  }
-  >>> .el-form-item__error{
+  ::v-deep .el-form-item__error{
   position: unset;
   margin-top: 0px;
 }
->>> .el-form-item--medium .el-form-item__label{
+::v-deep .el-form-item--medium .el-form-item__label{
   margin-right: 10px;
 }
->>> .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before, .el-form-item.is-required:not(.is-no-asterisk) .el-form-item__label-wrap>.el-form-item__label:before{
+::v-deep .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before, .el-form-item.is-required:not(.is-no-asterisk) .el-form-item__label-wrap>.el-form-item__label:before{
   position: unset;
 }
 .row-title-tips{

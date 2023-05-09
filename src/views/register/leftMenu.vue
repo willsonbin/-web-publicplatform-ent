@@ -277,7 +277,7 @@ export default {
     align-items: center;
     margin-top: 60px;
 }
->>> .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before{
+::v-deep .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before{
     position: inherit;
 }
 .rightTop{
@@ -303,39 +303,39 @@ export default {
     height: 60px;
     line-height: 60px;
 }
->>> .el-step__main{
+::v-deep .el-step__main{
     float: left;
     margin-left: 34px;
     margin-top: -30px;
 }
->>> .el-step.is-horizontal .el-step__line{
+::v-deep .el-step.is-horizontal .el-step__line{
   width: calc(100% - 130px);
   left: 130px;
   // right: 8px;
 }
-// >>> .el-step.is-horizontal:first-child{
+// ::v-deep .el-step.is-horizontal:first-child{
 //   left: 110px;
 // }
->>> .el-step__head.is-success{
+::v-deep .el-step__head.is-success{
   color: #0F58FF;
   border-color: #0F58FF
 }
->>> .el-step__title.is-success{
+::v-deep .el-step__title.is-success{
   color: #333;
 }
->>> .el-step__head.is-process{
+::v-deep .el-step__head.is-process{
   color: #0F58FF;
   border-color: #0F58FF
 }
->>> .el-step__title .is-process{
+::v-deep .el-step__title .is-process{
  color: #333;
- >>> .el-step__icon{
+ ::v-deep .el-step__icon{
    background: #0F58FF !important;
  }
- >>> .is-text{
+ ::v-deep .is-text{
    color: #fff;
  }
- >>> .el-step.is-horizontal .el-step__line:first-of-type{
+ ::v-deep .el-step.is-horizontal .el-step__line:first-of-type{
    width: 56%;
  }
 }

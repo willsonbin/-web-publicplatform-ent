@@ -223,7 +223,7 @@ export default {
     border-top: none;
     padding: 20px 0px 0px 20px;
 }
->>> .el-table--enable-row-transition .el-table__body td.el-table__cell{
+::v-deep .el-table--enable-row-transition .el-table__body td.el-table__cell{
   text-align: center;
 }
 </style>

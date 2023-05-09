@@ -396,7 +396,7 @@ export default {
     flex-direction: column;
     overflow: hidden;
     overflow-x: auto;
-    >>>.el-image__inner {
+    ::v-deep.el-image__inner {
       width: auto !important;
     }
 }
@@ -432,10 +432,10 @@ export default {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  >>> .el-form-item .el-form-item__label {
+  ::v-deep .el-form-item .el-form-item__label {
     flex-shrink: 0;
   }
-  >>> .el-form-item .el-form-item__content {
+  ::v-deep .el-form-item .el-form-item__content {
     overflow: hidden;
     overflow-x: auto;
   }
@@ -447,15 +447,15 @@ export default {
 }
 }
 .diagram{
- >>> .el-form-item__error{
+ ::v-deep .el-form-item__error{
     top: 38%;
     left: 100px;
   }
 }
->>> .flex-form-submit-three .el-form-item{
+::v-deep .flex-form-submit-three .el-form-item{
   width: 50%;
 }
->>> .form-item-border-left {
+::v-deep .form-item-border-left {
   .el-form-item__label {
     border-bottom: none;
   }
@@ -465,7 +465,7 @@ export default {
     border-right: none;
   }
 }
->>> .form-item-border-right {
+::v-deep .form-item-border-right {
   .el-form-item__label {
     border-bottom: none;
   }
@@ -474,7 +474,7 @@ export default {
     border-left: none;
   }
 }
->>> .form-item-border-label-left {
+::v-deep .form-item-border-label-left {
   .el-form-item__label {
     border-right: none;
   }
@@ -482,7 +482,7 @@ export default {
     border-right: none;
   }
 }
->>> .form-item-border-label-right {
+::v-deep .form-item-border-label-right {
   .el-form-item__label {
     border-right: none;
   }

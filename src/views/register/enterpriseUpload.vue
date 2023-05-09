@@ -320,17 +320,17 @@ export default {
     font-size: 14px;
   }
 }
->>> .el-form-item__error {
+::v-deep .el-form-item__error {
   position: unset;
   margin-top: 0px;
 }
->>> .el-form-item {
+::v-deep .el-form-item {
   margin-bottom: 16px;
 }
->>> .el-form-item--medium .el-form-item__label {
+::v-deep .el-form-item--medium .el-form-item__label {
   font-weight: normal;
 }
->>> .el-form-item .el-input--medium .el-input__inner {
+::v-deep .el-form-item .el-input--medium .el-input__inner {
   width: 100%;
 }
 </style>

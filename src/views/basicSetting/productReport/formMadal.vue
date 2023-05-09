@@ -266,10 +266,10 @@ export default {
   color: #C3C3C3;
   display: inline-block;
 }
->>> .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before{
+::v-deep .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before{
   position: unset;
 }
->>> .el-form-item__error{
+::v-deep .el-form-item__error{
   position: unset;
   margin-top: 0
 }

@@ -138,7 +138,7 @@ export default {
             }
         }
     }
-    >>> .el-step .el-step__head {
+    ::v-deep .el-step .el-step__head {
       display: none;
     }
 }

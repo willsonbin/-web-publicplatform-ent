@@ -384,13 +384,13 @@ $light_gray: #eee;
     margin: 0 3%;
   }
   .content-left {
-    >>> .el-carousel__item {
+    ::v-deep .el-carousel__item {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
-    >>> .el-carousel__indicators{
+    ::v-deep .el-carousel__indicators{
       >li .el-carousel__button {
         width: 10px;
         height: 10px;
@@ -456,17 +456,17 @@ $light_gray: #eee;
         height: 44px;
         font-size: 16px;
       }
-      >>> .el-form-item__error {
+      ::v-deep .el-form-item__error {
         right: 35px;
       }
     }
-    >>> .el-form-item .el-input--medium .el-input__inner{
+    ::v-deep .el-form-item .el-input--medium .el-input__inner{
       width: 100%;
       height: 44px;
       border-radius: 0;
       border: 1px solid #1388EF;
     }
-    >>>.el-button--primary {
+    ::v-deep.el-button--primary {
       border: 1px solid #1388EF;
     }
   }
@@ -486,7 +486,7 @@ $light_gray: #eee;
     display: flex;
     justify-content: space-between;
     margin: -10px 0 0 0;
-    >>> .el-button{
+    ::v-deep .el-button{
       width: 50px !important;
       padding:0 !important
     }
@@ -504,7 +504,7 @@ $light_gray: #eee;
       text-align: center;
       line-height: 24px;
     }
-   >>> .el-button{
+   ::v-deep .el-button{
      padding:0
    }
    .jumpLink{

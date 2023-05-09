@@ -193,14 +193,14 @@ export default {
 <style scoped lang="scss">
 #pic-upload{
   min-width: 260px;
-    >>>.el-upload--picture-card{
+    ::v-deep.el-upload--picture-card{
         width: 60px;
         height: 60px;
         border: 0;
         border-radius: 4px;
         line-height: 60px;
     }
-    >>>.el-upload-list--picture-card{
+    ::v-deep.el-upload-list--picture-card{
         display: none;
     }
     .description {
