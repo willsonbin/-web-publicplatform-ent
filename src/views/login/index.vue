@@ -1,10 +1,10 @@
 <template>
   <div class="login-container">
-    <img style="position: absolute; top: 48px;left: 48px;width: 97px;" src="../../assets/images/big-logo.png">
+    <img style="position: absolute; top: 48px;left: 48px;width: 97px;" src="../../assets/images/big-logo.png" alt="">
     <div class="content-left">
       <el-carousel style="width: 500px;height:500px" arrow="never" trigger="click">
         <el-carousel-item v-for="(item, index) in swipperList" :key="index" style="width: 500px;height:500px">
-          <img style="width: 500px;height: 340px" src="../../assets/images/login-swipper.png">
+          <img style="width: 500px;height: 340px" src="../../assets/images/login-swipper.png" alt="">
           <h1>{{ item.title }}</h1>
           <p>{{ item.content }}</p>
         </el-carousel-item>
@@ -433,8 +433,7 @@ $light_gray: #eee;
       h4 {
         font-size: 18px;
         color: #1388F1;
-        margin: 0;
-        margin-left: 20px;
+        margin: 0 0 0 20px;
         background: #fff;
         display: flex;
         .template {
@@ -451,7 +450,7 @@ $light_gray: #eee;
       margin: 0 auto;
       color: #333;
       background: #fff;
-      padding: 30px 0px 30px 0px;
+      padding: 30px 0 30px 0;
       .el-button{
         width: 100%;
         height: 44px;
@@ -464,12 +463,11 @@ $light_gray: #eee;
     >>> .el-form-item .el-input--medium .el-input__inner{
       width: 100%;
       height: 44px;
-      border-radius: none;
+      border-radius: 0;
       border: 1px solid #1388EF;
     }
     >>>.el-button--primary {
       border: 1px solid #1388EF;
-      border-color: #1388EF;
     }
   }
 
@@ -490,7 +488,7 @@ $light_gray: #eee;
     margin: -10px 0 0 0;
     >>> .el-button{
       width: 50px !important;
-      padding:0px !important
+      padding:0 !important
     }
   }
   .loginBottom{
@@ -507,7 +505,7 @@ $light_gray: #eee;
       line-height: 24px;
     }
    >>> .el-button{
-     padding:0px
+     padding:0
    }
    .jumpLink{
       color: #1388f1;
